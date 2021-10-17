@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(../img/pattern-background-desktop.svg);
+}
+.center .card{
+    width: 400px;
+    position: relative;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow:0 10px 15px 0 rgba(0, 0, 0, .2);
+}
+.center .card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    
+}
+.center .card .textcontent{
+    text-align: center;
+}
+.center .card .textcontent h1{
+   margin: 20px 0;
+}
+.center .card .textcontent h1{
+   margin: 20px 0;
+}
+.center .card .textcontent p{
+  font-weight: 500;
+  padding: 0 30px;
+  color: rgba(0, 0, 0, .7);
+}
+.center .card .middle-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+    background-color: hsl(245, 75%, 52%)
+    ;
+    padding: 15px 10px;
+    border-radius: 15px;
+} 
+.center .card .middle-info .titleand-price{
+    position: absolute;
+    left: 24%;
+}
+.center .card .middle-info>a{
+    font-weight: bold;
+}
+.center .card .middle-info>a:hover{
+    color: hsl(228, 45%, 44%);
+}
+.center .card .middle-info .price{
+    color: rgba(0, 0, 0, .7);
+}
+
+.center .card .buttons{
+    display: flex;
+    justify-content: center;
+}
+.center .card .buttons button{
+    font-size: 1.1rem;
+    width: 70%;
+    padding: 15px 0;
+    background-color: hsl(245, 75%, 52%);
+    
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 13px 15px rgba(0, 0, 0, .3);
+}
+.center .card .buttons button:hover{
+    background-color: royalblue;
+}
+.center .card >button{
+   margin: 10px 35%;
+   border: none;
+   background: transparent;
+   color: rgba(0, 0, 0, .5);
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 16px;
+}
+.center .card >button:hover{
+    color: rgba(0, 0, 0, .8);
+}
+
+@media (max-width:500px){
+    .center{
+        justify-content: unset;
+    }
+    .center .card{
+        margin:  0 auto;
+    }
+}

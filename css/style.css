@@ -48,7 +48,7 @@ html{
     justify-content: space-between;
     align-items: center;
     margin: 20px 30px;
-    background-color: hsl(245, 75%, 52%)
+    background-color: rgba(0,0,0,.1);
     ;
     padding: 15px 10px;
     border-radius: 15px;

@@ -14,7 +14,7 @@ html{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    Padding:0 30px;
+    Padding:0 15px;
     background-image:url(../img/pattern-background-desktop.svg);
 }
 .center .card{
@@ -56,7 +56,7 @@ html{
 } 
 .center .card .middle-info .titleand-price{
     position: absolute;
-    left: 24%;
+    left: 25%;
 }
 .center .card .middle-info>a{
     font-weight: bold;

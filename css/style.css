@@ -14,6 +14,7 @@ html{
     align-items: center;
     min-height: 100vh;
     width: 100%;
+    Padding:0 30px;
     background-image:url(../img/pattern-background-desktop.svg);
 }
 .center .card{
